@@ -1,0 +1,225 @@
+* {
+    font-family: "Roboto";
+}
+
+.home-wallpaper {
+    background-image: url('https://res.cloudinary.com/dqcj9hyqt/image/upload/v1699635135/IMG_20231110_222157_omq7oh.jpg');
+    height: 100vh;
+    width: 98vw;
+    background-size: cover;
+    text-align: center;
+}
+
+.homepage-main-heading {
+    color: black;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.home-page-content {
+    text-align: center;
+    margin: 20px;
+}
+
+@media (min-width:992px) {
+    .home-page-content {
+        margin-left: 150px;
+        margin-right: 150px;
+        max-width: 1000px;
+    }
+}
+
+@media (min-width:1200px) {
+    .home-page-content {
+        margin-left: 220px;
+        margin-right: 220px;
+        max-width: 800px;
+    }
+}
+
+.navbar-items {
+    color: #323f4b;
+    font-weight: bold;
+}
+
+.navbar-logo {
+    height: 60px;
+    width: 60px;
+    border-radius: 0px;
+
+}
+
+.homepage-content {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.homepage-button {
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.home-button {
+    text-align: center;
+}
+
+.serviceandproductpage {
+    background-color: #f9fbfe;
+}
+
+.service-heading {
+    color: #183b56;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.service-image {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.services-para-content {
+    color: #5a7184;
+    font-size: 16px;
+}
+
+.service-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+}
+
+.service-card-title {
+    color: #323f4b;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.service-card-description {
+    color: #7b8794;
+    font-size: 16px;
+}
+
+.exploreproductsection {
+    background-color: white;
+}
+
+.product-heading {
+    color: #183b56;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.product-card {
+    border-radius: 16px;
+}
+
+.product-image {
+    border-radius: 16px;
+}
+
+.product-title {
+    color: #323f4b;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.product-price {
+    color: #323f4b;
+    font-size: 15px;
+}
+
+.product-link {
+    color: blue;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.about-business {
+    background-color: #f9fbfe;
+}
+
+.about-img {
+    width: 270px;
+}
+
+.About-heading {
+    padding-top: 10px;
+    color: #183b56;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.abount-mainheading {
+    color: #183b56;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.contact-section {
+    background-color: lightblue;
+}
+
+.contact-us-heading {
+    text-align: center;
+    color: #183b56;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.contact-us-icon-container {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.icon-2 {
+    color: #E1306C;
+    font-size: 40px;
+}
+
+.icon-1 {
+    color: green;
+    font-size: 40px;
+
+}
+
+.icon-3 {
+    color: darkblue;
+    font-size: 39px;
+}
+
+.footer-section {
+    background-color: lightblue;
+}
+
+/*.business-logo {
+    margin: 5px;
+    width: 150px;
+    height: 100px;
+}*/
+.footer-section-address {
+    color: #183b56;
+    font-size: 14px;
+}
+
+.footer-section-mail-id {
+    color: #183b56;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+  }

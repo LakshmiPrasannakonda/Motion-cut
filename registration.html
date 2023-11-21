@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="resistration.js"></script>
+    <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container" id="sectionregestrationpage">
+        <h1 class="form-heading">Registration Form</h1>
+        <form id="myForm">
+            <div class="container">
+                <div class="row">
+                    <div class="mb-3 col-12 col-lg-6">
+                        <label for="username">User Name</label>
+                        <input type="text" class="form-control" id="username" placeholder=" UserName" />
+                        <p id="usernameErrMsg" class="error-message"></p>
+                    </div>
+                    <div class="mb-3 col-12 col-lg-6">
+                        <label for="firstname">First Name</label>
+                        <input type="text" class="form-control" id="firstname" placeholder="First Name" />
+                        <p id="firstnameErrMsg" class="error-message"></p>
+                    </div>
+                    <div class="mb-3 col-12 col-lg-6">
+                        <label for="middlename">Middle Name</label>
+                        <input type="text" class="form-control" id="middlename" placeholder="Middle Name" />
+                        <p id="middlenameErrMsg" class="error-message"></p>
+                    </div>
+                    <div class="mb-3 col-12 col-lg-6">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" class="form-control" id="lastname" placeholder="Last Name" />
+                        <p id="lastnameErrMsg" class="error-message"></p>
+                    </div>
+                    <div class="mb-3 col-12">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" id="email" placeholder="eg:abcdefg@gmail.com" />
+                        <p id="emailErrMsg" class="error-message"></p>
+                    </div>
+                    <div class="mb-3 col-12 col-lg-6">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Strong password" />
+                        <p id="passwordErrMsg" class="error-message"></p>
+                    </div>
+                    <div class="mb-3 col-12 col-lg-6">
+                        <label for="confirmpassword">Confirm Password</label>
+                        <input type="password" class="form-control" id="confirmpassword" placeholder="confirm password" />
+                        <p id="confirmpasswordErrMsg" class="error-message"></p>
+                    </div>
+                    <div class="mb-3 col-12 col-lg-6">
+                        <label for="mobilenumber">Mobile Number</label>
+                        <input type="text" class="form-control" id="mobilenumber" placeholder="eg:9876543210" />
+                        <p id="mobilenumberErrMsg" class="error-message"></p>
+                    </div>
+                    <div class="mb-3 col-12 col-lg-6">
+                        <label for="aadharnumber">Aadhar Number</label>
+                        <input type="text" class="form-control" id="aadharnumber" placeholder="eg:1111 2222 3333" />
+                        <p id="aadharnumberErrMsg" class="error-message"></p>
+                    </div>
+                    <div class="mb-3 col-12 d-flex flex-column">
+                        <label for="address">Address</label>
+                        <textarea name="Address" id="address" rows="3" cols="2" class="address" placeholder="Enter Address"></textarea>
+                        <p id="addressErrMsg" class="error-message"></p>
+                    </div>
+                    <div class="mb-3 col-12 col-lg-6">
+                        <h1 class="gender-field-heading">Gender</h1>
+                        <input type="radio" name="gender" id="genderMale" value="Male" />
+                        <label for="genderMale">Male</label>
+                        <input type="radio" name="gender" id="genderFemale" value="Female" class="ml-2" />
+                        <label for="genderFemale">Female</label>
+                        <input type="radio" name="gender" id="genderOther" value="Other" class="ml-2" />
+                        <label for="genderOther">Other</label>
+                    </div>
+                    <div class="mb-3 col-12  col-lg-6">
+                        <label for="dateofbirth">Date of Birth</label>
+                        <input type="date" class="form-control" id="dateofbirth" />
+                        <p id="dateofbirthErrMsg" class="error-message"></p>
+                    </div>
+                    <div class="mb-3 col-12 col-lg-6">
+                        <label for="status">Working Status</label>
+                        <select id="status" class="form-control">
+                            <option value="Active">Active</option>
+                            <option value="Inactive">Inactive</option>
+                        </select>
+                    </div>
+                    <div class="mb-3 col-12 col-lg-6">
+                        <label for="occupation">Occupation</label>
+                        <input type="label" class="form-control" id="occupation" />
+                        <p id="occupationErrMsg" class="error-message"></p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary" id="button">Submit</button>
+        </form>
+
+    </div>
+</body>
+
+</html>

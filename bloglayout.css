@@ -1,0 +1,173 @@
+.homepage {
+    background-image: url('https://www.fubiz.net/wp-content/uploads/2015/02/Incredible-Nature-and-Travel-Photography-2.jpg');
+    height: 90vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.homepara {
+    font-size: 32px;
+}
+
+.homeheading {
+    font-size: 72px;
+}
+
+@media screen and (max-width:576px) {
+    .homeheading {
+        font-size: 42px;
+    }
+
+    .homepara {
+        font-size: 28px;
+    }
+}
+
+.explorecontents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width:922px) {
+    .explorecontents {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+.tag {
+    background-color: lightgrey;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.explorebutton {
+    margin: 60px;
+    border-width: 0px;
+    background-color: white;
+    height: 45px;
+    color: #fa0707;
+    font-weight: 600;
+}
+
+.travelingimage {
+    width: 90%;
+    box-sizing: border-box;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.home-overview-image {
+    width: 95%;
+    box-sizing: border-box;
+    margin: 16px;
+}
+
+.travel-img {
+    background-image: url('https://img.freepik.com/premium-photo/large-waterfall-middle-lush-green-forest_75778-9236.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699833600&semt=ais');
+    height: 250px;
+    width: 250px;
+    font-size: 24px;
+    background-size: cover;
+}
+
+.food-img {
+    background-image: url('https://media-cdn.tripadvisor.com/media/photo-p/18/19/19/88/un-plateau-pour-quatre.jpg');
+    height: 250px;
+    width: 250px;
+    font-size: 24px;
+    background-size: cover;
+}
+
+.article-img {
+    background-image: url('https://deih43ym53wif.cloudfront.net/Prambanan-temple-shutterstock_542240914.jpg_1598897a21.jpg');
+    height: 250px;
+    width: 250px;
+    font-size: 24px;
+    background-size: cover;
+}
+
+.homeheading {
+    font-weight: 700;
+}
+
+.explorepagepara {
+    width: 100%;
+}
+
+.contact-section {
+    background-color: lightblue;
+}
+
+.contact-us-heading {
+    text-align: center;
+    color: #183b56;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.contact-us-icon-container {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.icon-2 {
+    color: #E1306C;
+    font-size: 40px;
+}
+
+.icon-1 {
+    color: green;
+    font-size: 40px;
+
+}
+
+.icon-3 {
+    color: darkblue;
+    font-size: 25px;
+}
+
+@media screen and (min-width:992px) {
+    .articlecontainer {
+        display: flex;
+    }
+
+    .img1 {
+        order: 2;
+    }
+}
+
+.articleimage2 {
+    width: 300px;
+}
+
+.exploremainheading {
+    color: #000080;
+    font-weight: bold;
+}
+
+.travelmainpara {
+    color: darkgrey;
+}
+
+.foodmainpara {
+    color: darkgrey;
+}
+
+.articleheading {
+    color: purple;
+}
+
+.aboutcomboimages {
+    width: 20%;
+}

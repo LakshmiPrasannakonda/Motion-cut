@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="bloglayout.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav hovering">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" onclick="display('sectionhomepage')">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" onclick="display('sectiontravelpage')">Travel</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="#" onclick="display('sectionfoodpage')">Food</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" onclick="display('sectionarticlepage')">Article</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" onclick="display('sectionaboutpage')">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="sectionhomepage" class="container">
+        <div class="row">
+            <div class="homepage d-flex flex-column justify-content-center">
+                <div class="text-center text-white">
+                    <p class="homepara">Travelling</p>
+                    <h1 class="homeheading">Explore</h1>
+                    <p class="homepara">I haven't been everywhere, but it's on my list</p>
+                </div>
+            </div>
+            <div class="exploringpage m-3 p-3">
+                <p class="explorepagepara col-12">Embarking on a journey is a passport to a world of flavors, an odyssey where each destination tells its unique culinary story. Travel and food, like a perfectly orchestrated symphony, intertwine to create an unforgettable sensory experience. From the tantalizing street food stalls of bustling markets to the refined elegance of Michelin-starred restaurants, every step of the journey unveils a new chapter in the global gastronomic narrative. It's a voyage that transcends mere geography, inviting you to savor the essence of cultures through the richness of their cuisines. Each meal becomes a cultural crossroads, a delicious bridge connecting the traveler to the soul of a place. The amalgamation of travel and food is a celebration of diversity, a kaleidoscope of tastes that transforms each adventure into a culinary masterpiece, leaving an indelible mark on the wanderer's memory and palate alike.</p>
+                <div class="explorecontents">
+                    <div class=" m-3 travel-img d-flex flex-column justify-content-center text-center">
+                        <button class="shadow explorebutton" onclick="display('sectiontravelpage')">Travel</button>
+                    </div>
+                    <div class=" m-3 food-img d-flex flex-column justify-content-center text-center">
+                        <button class="shadow explorebutton" onclick="display('sectionfoodpage')">Food</button>
+                    </div>
+                    <div class=" m-3 article-img d-flex flex-column justify-content-center text-center">
+                        <button class="shadow explorebutton" onclick="display('sectionarticlepage')">Article</button>
+                    </div>
+                </div>
+            </div>
+            <div class="tag">
+                <h1>EXPLORE THE WORLD WITH FULL OF JOY</h1>
+            </div>
+            <div class="overview mt-5 ml-3 mr-3 mb-3">
+                <div>
+                    <img class="home-overview-image" src="https://images.unsplash.com/photo-1572107228262-52eb1c52d8b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D&w=1000&q=80" alt="Its An Image" />
+                    <p class="homeoverviewpara">Skyscrapers reach for the heavens, their glass facades reflecting the vibrant energy of a bustling metropolis. Narrow streets weave through historic neighborhoods, where the echoes of diverse cultures harmonize in a tapestry of urban charm.</p>
+                </div>
+                <div>
+                    <img class="home-overview-image" src="https://www.dmoose.com/cdn/shop/articles/1_e9f13c4d-72e4-4be2-8107-cebfee6a0366.jpg?v=1656086825" alt="Its An Image" />
+                    <p class="homeoverviewpara">A symphony of flavors dances on the palate, as succulent, perfectly grilled bites reveal a harmonious blend of smokiness and juiciness. Each mouthful is a celebration of culinary mastery, leaving a lingering desire for the secret behind its delectable allure</p>
+                </div>
+                <div>
+                    <img class="home-overview-image" src="https://m.media-amazon.com/images/I/71l23hKJpDL._AC_UF1000,1000_QL80_.jpg" alt="Its An Image" />
+                    <p class="homeoverviewpara">Nestled between rolling hills and serene waters, this hidden gem enchants with its untouched beauty. Sunlight filters through ancient trees, casting a dappled glow on moss-covered pathways. A symphony of bird songs echoes in the air, while vibrant wildflowers sway in the gentle breeze. In this secluded paradise, time seems to stand still, inviting wanderers to lose themselves in nature's embrace.</p>
+                </div>
+            </div>
+            <div class="contact-section pt-5 " id="contactpage">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="contact-us-heading">Explore More</h1>
+                        </div>
+                        <div>
+                            <p class="text-secondary m-3">In the realm of travel, thoughts become wanderlust, guiding explorers through uncharted territories. These thoughts, fueled by the desire for adventure, seek comfort in the well-paved roads of guidance and the welcoming embrace of modern facilities. From thought to reality, the journey unfolds, accompanied by the wisdom of seasoned travelers and the convenience of well-equipped accommodations. As the compass points to new horizons, thoughtful planning and accessible facilities intertwine, transforming travel into a seamless and enriching experience.</p>
+                        </div>
+                        <a class="ml-3 p-2" href="#" onclick="display('sectionaboutpage')">More About Explore....</a>
+                        <div class="col-12">
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="contact-us-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-whatsapp icon-1" viewBox="0 0 16 16">
+                                        <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                                    </svg>
+                                </div>
+                                <div class="contact-us-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-instagram icon-2" viewBox="0 0 16 16">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                    </svg>
+                                </div>
+                                <div class="contact-us-icon-container text-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" fill="currentColor" class="bi bi-facebook icon-3" viewBox="0 0 16 16">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="sectiontravelpage" class="container p-3 text-center">
+        <div class="row">
+            <h1 class="exploremainheading text-left col-12">Travel</h1>
+            <p class="travelmainpara text-left col-12">Travel is like exploring a big, exciting puzzle where you get to visit new places, meet different people, and collect memories that make your life story colorful and adventurous. It's a journey that turns the pages of the world, letting you discover its wonders one destination at a time.</p>
+            <div class="d-flex flex-column justify-content-center text-center col-12">
+                <div class="travelimage shadow p-4 mb-3">
+                    <img class="travelingimage" src="https://media.istockphoto.com/id/652735376/photo/backpacker-on-suspension-bridge-in-rainforest.jpg?s=612x612&w=0&k=20&c=ZA28luNWHboNBlNnexpaN7v-bc_ThaPeupMkzgpPITQ=" alt="This is a green forest area Image" />
+                    <p class='travelpara'>In the heart of the forest, sunlight trickles through a dense canopy, painting a mosaic of shadows on the lush floor below. Tall trees, their branches intertwined like guardian spirits, stand sentinel over a realm where time seems suspended. Nature's symphony unfolds with the rustle of leaves, accompanied by the enchanting song of unseen birds. Moss-covered rocks and ancient ferns add textures to the woodland tapestry, inviting exploration. Earthy scents linger in the air, creating an immersive experience of the wild, where the whispers of the wind tell tales of centuries gone by. This forest, a haven of tranquility, invites those who enter to lose themselves in its timeless embrace.</p>
+                </div>
+                <div class="travelimage shadow p-4 mb-3">
+                    <img class="travelingimage" src="https://img.freepik.com/premium-photo/paradise-beach-sunset-tropical-palm-trees_1015979-3753.jpg" alt="This is a sea area Image" />
+                    <p class='travelpara'>Along the shore, waves weave intricate patterns in the sand, while the rhythmic music of the sea serenades the coastline. The horizon stretches endlessly, merging the azure waters with the vast sky in a seamless dance of hues. Seabirds skim the surface, adding graceful silhouettes to the seascape. Salty breezes carry the essence of the ocean, invigorating those who breathe in its briny embrace. Shells and seaweed adorn the beach, remnants of the sea's artistry left for curious wanderers. At sunset, the water transforms into a canvas, painted with the warm glow of the descending sun, casting a tranquil spell on this coastal haven.</p>
+                </div>
+                <div class="travelimage shadow p-4 mb-3">
+                    <img class="travelingimage" src="https://res.cloudinary.com/dqcj9hyqt/image/upload/v1701257902/IMG-20231129-WA0013_uynn6v.jpg" alt="This is a city area Image" />
+                    <p class='travelpara'>In the heart of innovation, a cityscape of sleek skyscrapers rises, each facade a shimmering testament to cutting-edge design and advanced technology. Neon-lit streets pulse with energy as self-driving vehicles glide seamlessly along smart infrastructure. Smart buildings respond to the needs of occupants, adjusting temperature and lighting with intuitive precision. Public spaces boast augmented reality installations, offering a blend of the virtual and the tangible. High-speed networks connect the city, fostering a seamless exchange of information. Here, the air hums with the promise of progress, and the skyline reflects a harmonious convergence of architectural brilliance and technological marvels.</p>
+                </div>
+                <div class="travelimage shadow p-4 mb-3">
+                    <img class="travelingimage" src="https://www.shutterstock.com/image-photo/indian-cameleers-camel-driver-bedouin-600nw-1724207551.jpg" alt="This is a desert area Image" />
+                    <p class='travelpara'>Vast and arid, desert landscapes unfold with a captivating harsh beauty. Endless stretches of golden sands or rocky expanses create a timeless panorama under the relentless sun. The air, dry and still, carries the whispers of shifting dunes or the ancient echoes of wind-sculpted rock formations. Sparse vegetation, adapted to survive, adds subtle hues to the earth-toned canvas. The day's heat gives way to chilly nights, revealing a celestial spectacle as stars illuminate the vast expanse. In this seemingly desolate realm, nature's resilience and the quiet majesty of solitude converge, offering a profound and awe-inspiring experience.</p>
+                </div>
+                <div class="contact-section pt-5" id="contactpage">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h1 class="contact-us-heading">Explore More</h1>
+                            </div>
+                            <div>
+                                <p class="text-secondary m-3">In the realm of travel, thoughts become wanderlust, guiding explorers through uncharted territories. These thoughts, fueled by the desire for adventure, seek comfort in the well-paved roads of guidance and the welcoming embrace of modern facilities. From thought to reality, the journey unfolds, accompanied by the wisdom of seasoned travelers and the convenience of well-equipped accommodations. As the compass points to new horizons, thoughtful planning and accessible facilities intertwine, transforming travel into a seamless and enriching experience.</p>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <div class="contact-us-icon-container">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-whatsapp icon-1" viewBox="0 0 16 16">
+                                            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                                        </svg>
+                                    </div>
+                                    <div class="contact-us-icon-container">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-instagram icon-2" viewBox="0 0 16 16">
+                                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                        </svg>
+                                    </div>
+                                    <div class="contact-us-icon-container text-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" fill="currentColor" class="bi bi-facebook icon-3" viewBox="0 0 16 16">
+                                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionfoodpage" class="container p-3 text-center">
+        <h1 class="exploremainheading text-left">Food</h1>
+        <p class="foodmainpara text-left">Food is like a magical language that speaks to your taste buds, making every meal an adventure full of flavors, textures, and delicious surprises. It's the art of turning ingredients into smiles, filling your plate with joy and your tummy with happiness.</p>
+        <div class="d-flex flex-column justify-content-center text-center">
+            <div class="foodimagecontainer shadow p-4 mb-3">
+                <img class="travelingimage " src="https://cdn.tatlerasia.com/tatlerasia/i/2023/05/02083714-feast-mothers-day-out-lunch-buffet-2023_cover_1600x940.jpg" alt="This is a sea food  Image" />
+                <p class='foodpara'>Seafood, a tantalizing symphony of flavors from the ocean, offers a diverse palette of tastes. From succulent shrimp to flaky fish, each bite captures the essence of the sea. Whether grilled to perfection or embraced in rich sauces, seafood takes your taste buds on a maritime journey, delivering a fresh and briny melody on the plate. Indulging in seafood is a delightful celebration of the bountiful treasures that the ocean generously shares with the culinary world.</p>
+            </div>
+            <div class="foodimagecontainer shadow p-4 mb-3">
+                <img class="travelingimage " src="https://img.freepik.com/premium-photo/rice-with-rice-pot-rice_931553-54663.jpg" alt="This is a desert food Image" />
+                <p class='foodpara'>Desert cuisine is characterized by hearty, portable dishes suited to harsh climates. Staples include dates, nuts, and grains, while inventive recipes feature locally adapted flavors like aromatic spices and grilled meats. Traditional desert foods showcase resourcefulness in creating flavorful and nourishing meals amid arid conditions. </p>
+            </div>
+            <div class="foodimagecontainer shadow p-4 mb-3">
+                <img class="travelingimage " src="https://opt.toiimg.com/recuperator/img/toi/m-65163878/65163878.jpg&width=500&resizemode=4" alt="This is a street food Image" />
+                <p class='foodpara'>Street food, a culinary adventure found on bustling sidewalks, is a feast for the senses. From sizzling skewers to aromatic spices wafting through the air, it's a global tapestry of flavors. These humble yet flavorful bites, often served from colorful stalls, tell stories of local traditions, offering an accessible and authentic taste of a city's gastronomic identity. Exploring street food is like navigating an open-air kitchen where every bite is a passport to the heart of a vibrant culinary culture.</p>
+            </div>
+            <div class="foodimagecontainer shadow p-4 mb-3">
+                <img class="travelingimage " src="https://media.istockphoto.com/id/682477410/photo/banana-leaf-rice.jpg?s=612x612&w=0&k=20&c=Gygl85axt5B9ZSioULTNDcBNcHeDB5p1RzOr4zIT7O0=" alt="This is a traditional forest food Image" />
+                <p class='foodpara'>In forest areas, traditional food often reflects a harmonious relationship with nature. Foraging plays a vital role, with wild berries, nuts, and edible plants becoming staples. Indigenous communities may rely on game meat sourced from the forest, prepared with local herbs and spices. Mushroom varieties, found in abundance, contribute unique flavors to traditional forest cuisine. Meals are often cooked over open fires, creating a connection between the community and the natural surroundings. This traditional forest fare not only sustains but also embodies a deep respect for the ecosystem, showcasing the culinary wisdom passed down through generations.</p>
+            </div>
+            <div class="foodimagecontainer shadow p-4 mb-3">
+                <img class="travelingimage " src="https://i.natgeofe.com/n/bc1f6886-06f8-4e5a-afdd-3c30cd2fc894/food.jpg" alt="This is a foreign food Image" />
+                <p class='foodpara'>In diverse corners of the world, cuisine becomes a cultural ambassador, offering a taste of a nation's history and identity. In Italy, pasta dishes like spaghetti and lasagna showcase a mastery of flavors. Japan's sushi and sashimi highlight precision and freshness. Indian cuisine delights with a symphony of spices in dishes like curry and biryani. Mexico's tacos and enchiladas provide a vibrant fiesta of flavors. French cuisine, with its escargot and coq au vin, is a culinary art form. These global flavors invite exploration, allowing taste buds to embark on a journey that transcends borders and connects people through the universal language of food.</p>
+            </div>
+            <div class="contact-section pt-5 " id="contactpage">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="contact-us-heading">Explore More</h1>
+                        </div>
+                        <div>
+                            <p class="text-secondary m-3">In the realm of travel, thoughts become wanderlust, guiding explorers through uncharted territories. These thoughts, fueled by the desire for adventure, seek comfort in the well-paved roads of guidance and the welcoming embrace of modern facilities. From thought to reality, the journey unfolds, accompanied by the wisdom of seasoned travelers and the convenience of well-equipped accommodations. As the compass points to new horizons, thoughtful planning and accessible facilities intertwine, transforming travel into a seamless and enriching experience.</p>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="contact-us-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-whatsapp icon-1" viewBox="0 0 16 16">
+                                        <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                                    </svg>
+                                </div>
+                                <div class="contact-us-icon-container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-instagram icon-2" viewBox="0 0 16 16">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                    </svg>
+                                </div>
+                                <div class="contact-us-icon-container text-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" fill="currentColor" class="bi bi-facebook icon-3" viewBox="0 0 16 16">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionarticlepage" class="container p-3">
+        <h1 class="exploremainheading">Articles</h1>
+        <div class="articlecontainer mb-5 m-3">
+            <img class="articleimage2 img1" src="https://img.freepik.com/premium-photo/sunset-beach-with-palm-trees-bench_865967-32063.jpg?w=360" alt="this is a article on travel Image" />
+            <div class="mr-5 article1">
+                <h1 class="articleheading">Embarking on the Journey of a Lifetime</h1>
+                <p class="articlepara"><i>The Uplifting Power of Travel</i> <br />In a world that spins on the axis of routine, travel emerges as a beacon, inviting us to break free from the mundane and embark on a transformative odyssey. Beyond the logistics of planes, trains, and automobiles, travel is a profound exploration of self-discovery, cultural immersion, and the boundless beauty that envelopes our planet. <br /><a href="#" onclick="display('sectionarticle1')">Read More</a></p>
+            </div>
+        </div>
+        <div class="articlecontainer mb-5 m-3">
+            <img class="articleimage2 img2" src="https://images.pexels.com/photos/787630/pexels-photo-787630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="this is a article on building Image" />
+            <div class="ml-5 article1">
+                <h1 class="articleheading">Architectural Marvels</h1>
+                <p class="articlepara"><i> Celebrating the Beauty and Innovation of Buildings</i> In the grand tapestry of human civilization, buildings stand as towering monuments to our ingenuity, creativity, and the relentless pursuit of progress. From the ancient wonders that have withstood the test of time to the cutting-edge structures that redefine our skylines today, buildings are more than mere structures; they are the physical embodiment of our aspirations and the canvases upon which architects paint their dreams.<br /><a href="#" onclick="display('sectionarticle2')">Read More</a></p>
+            </div>
+        </div>
+        <div class="articlecontainer mb-5 m-3">
+            <img class="articleimage img1" src="https://srjbtkshetra.org/wp-content/uploads/2021/03/online-donate-1.jpg" alt="this is a article on building Image" />
+            <div class="mr-5 article1">
+                <h1 class="articleheading">Sacred Sanctuaries</h1>
+                <p class="articlepara"><i> The Timeless Beauty and Spiritual Resonance of Temples </i> In the kaleidoscope of human history, temples emerge as architectural wonders that transcend time, embodying the spiritual aspirations of civilizations across the ages. These sacred sanctuaries, with their majestic spires and intricate designs, stand not only as testaments to craftsmanship but also as beacons of tranquility, wisdom, and the enduring quest for the divine.<br /><a href="#" onclick="display('sectionarticle3')">Read More</a></p>
+            </div>
+        </div>
+        <div class="contact-section pt-5 " id="contactpage">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="contact-us-heading">Explore More</h1>
+                    </div>
+                    <div>
+                        <p class="text-secondary m-3">In the realm of travel, thoughts become wanderlust, guiding explorers through uncharted territories. These thoughts, fueled by the desire for adventure, seek comfort in the well-paved roads of guidance and the welcoming embrace of modern facilities. From thought to reality, the journey unfolds, accompanied by the wisdom of seasoned travelers and the convenience of well-equipped accommodations. As the compass points to new horizons, thoughtful planning and accessible facilities intertwine, transforming travel into a seamless and enriching experience.</p>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="contact-us-icon-container">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-whatsapp icon-1" viewBox="0 0 16 16">
+                                    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                                </svg>
+                            </div>
+                            <div class="contact-us-icon-container">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-instagram icon-2" viewBox="0 0 16 16">
+                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                </svg>
+                            </div>
+                            <div class="contact-us-icon-container text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" fill="currentColor" class="bi bi-facebook icon-3" viewBox="0 0 16 16">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionaboutpage" class="container">
+        <div class="forsmallsizescreens">
+            <img class="travelingimage d-lg-none" src="https://images.ctfassets.net/2sam6k0rncvg/24MznjozCLzpF1qKIIGJbh/7b5218ec6f36e3a17397f28e42c6a5d1/things-to-carry-on-a-road-trip.png" />
+        </div>
+        <div class="container d-none d-lg-block">
+            <div class="row">
+                <div class="d-flex flex-row justify-content-center">
+                    <img class="aboutcomboimages" src="https://ak-d.tripcdn.com/images/10050z000000nfacbE087.jpg?proc=source%2Ftrip" alt="" />
+                    <img class="aboutcomboimages" src="https://img.freepik.com/premium-photo/campfire-desert-with-campfire-desert-background_954226-26479.jpg" alt="" />
+                    <img class="aboutcomboimages" src="https://static.nationalgeographic.co.uk/files/styles/image_3200/public/croppedgettyimages-1396812211.jpg?w=1600&h=900" />
+                    <img class="aboutcomboimages" src="https://www.vistaresidences.com.ph/assets/img/travelling-on-budget_condo-living.png" />
+                    <img class="aboutcomboimages" src="https://content.api.news/v3/images/bin/e13f046645eb41d26a3197b068f30976" />
+                </div>
+            </div>
+        </div>
+        <div>
+            <p> <b>Traveling</b> by exploring is a dynamic and enriching experience that goes beyond conventional tourism. It involves venturing into the unknown, embracing spontaneity, and discovering the essence of a destination:
+
+                Exploratory travel is driven by an insatiable curiosity, prompting you to seek out hidden gems, local secrets, and lesser-known landscapes.
+
+                Instead of merely visiting landmarks, exploring travel encourages you to engage with local culture, history, and traditions, providing a more profound understanding of the places you encounter.
+
+                It often involves deviating from popular tourist routes, opting for uncharted territories, and finding joy in the unexpected discoveries along the way.
+
+                Exploratory travel fosters genuine connections with local communities, allowing you to interact with people, share stories, and participate in everyday life.
+
+                It requires a flexible mindset, as plans may change, and the journey itself becomes a part of the adventure. Embracing spontaneity adds a sense of excitement and unpredictability.
+
+                Beyond urban exploration, it includes immersing oneself in nature, whether trekking through lush landscapes, diving into vibrant coral reefs, or camping under star-studded skies.
+
+                Exploring travel provides ample opportunities for unique and authentic photography, capturing moments that reflect the true spirit of a destination.
+
+                Whether you embark on solo adventures or travel in small groups, the focus is on intimate experiences, fostering a deeper connection with the surroundings.
+
+                Exploratory travel often aligns with responsible tourism, respecting local environments and cultures, and minimizing the impact on the places visited.
+
+                In essence, traveling by exploring is about embracing the unknown, immersing yourself in diverse experiences, and gaining a holistic perspective that transcends traditional tourism.</p>
+            <p><b>Accommodations</b>
+
+                <i>Accommodations</i>Themed Stays Unique, themed accommodations provide an immersive experience, from medieval castles to space-themed hotels, adding an extra layer of excitement to your stay.
+
+                <i>Local Homestays</i> Opting for homestays allows you to connect with locals, gaining insights into their way of life, traditions, and forming meaningful connections.
+
+                <i>Luxury Retreats</i> Exclusive resorts and spa retreats offer a pampering experience with top-notch amenities, personalized services, and a focus on relaxation.
+
+                <i>Floating Accommodations</i> Staying on houseboats or floating villas can be a distinctive experience, offering a different perspective on the destination.
+
+                <i>Converted Spaces </i>Accommodations in repurposed buildings like old factories, churches, or warehouses provide a blend of history and modern comfort.
+                <br />
+                <b>Food Experiences</b>
+
+                <i>Street Food Adventures</i> Exploring local street food markets introduces you to the heart of a culture, offering a wide array of flavors and authenticity.
+
+                <i>Culinary Tours</i> Participating in guided food tours allows you to taste a variety of local dishes, learn about their history, and understand the culinary landscape.
+
+                <i>Farm-to-Table Experiences</i> Dining in restaurants that source ingredients locally or have on-site gardens provides a fresh and sustainable approach to gastronomy.
+
+                <i>Cooking Classes</i> Taking a cooking class with local chefs lets you not only enjoy delicious meals but also learn the art of preparing traditional dishes to recreate at home.
+
+                <i>Food Festivals</i> Timing your travel to coincide with food festivals allows you to indulge in a celebration of local cuisines, often accompanied by music, cultural events, and vibrant atmospheres.
+
+                Remember, the combination of unique accommodations and diverse culinary experiences creates lasting memories and a richer understanding of the places you visit.
+            </p>
+        </div>
+        <div class="contact-section pt-5 " id="contactpage">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="contact-us-heading">Explore More</h1>
+                    </div>
+                    <div>
+                        <p class="text-secondary m-3">In the realm of travel, thoughts become wanderlust, guiding explorers through uncharted territories. These thoughts, fueled by the desire for adventure, seek comfort in the well-paved roads of guidance and the welcoming embrace of modern facilities. From thought to reality, the journey unfolds, accompanied by the wisdom of seasoned travelers and the convenience of well-equipped accommodations. As the compass points to new horizons, thoughtful planning and accessible facilities intertwine, transforming travel into a seamless and enriching experience.</p>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="contact-us-icon-container">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-whatsapp icon-1" viewBox="0 0 16 16">
+                                    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                                </svg>
+                            </div>
+                            <div class="contact-us-icon-container">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-instagram icon-2" viewBox="0 0 16 16">
+                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                </svg>
+                            </div>
+                            <div class="contact-us-icon-container text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" fill="currentColor" class="bi bi-facebook icon-3" viewBox="0 0 16 16">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- articles -->
+    <div id="sectionarticle1" class="container m-3 p-3">
+        <img class="travelingimage" src="https://img.freepik.com/premium-photo/sunset-beach-with-palm-trees-bench_865967-32063.jpg?w=360" alt="travel Image" />
+        <h1 class="articleheading">Embarking on the Journey of a Lifetime</h1>
+        <p class="articlepara"><span>The Uplifting Power of Travel</span> <br />In a world that spins on the axis of routine, travel emerges as a beacon, inviting us to break free from the mundane and embark on a transformative odyssey. Beyond the logistics of planes, trains, and automobiles, travel is a profound exploration of self-discovery, cultural immersion, and the boundless beauty that envelopes our planet. <br /> At the heart of every journey lies the promise of discovery. Whether traversing ancient cobblestone streets or navigating bustling markets, travel beckons with the allure of the unknown. It is an invitation to unlock hidden facets of ourselves, to venture beyond our comfort zones, and to embrace the extraordinary tapestry of the world's diverse landscapes and cultures.
+
+            Travel is an education that extends beyond the classroom, offering lessons in adaptability, tolerance, and resilience. Stepping into unfamiliar territories, we are prompted to navigate the unfamiliar, fostering a sense of self-reliance and an openness to the unexpected. Each new destination becomes a classroom without walls, enriching our lives with experiences that textbooks cannot capture.
+
+            Beyond the personal growth it facilitates, travel is a bridge between cultures. As we engage with people from different corners of the world, language becomes more than words; it transforms into a universal dialogue of shared smiles, gestures, and hospitality. Travelers, in turn, become cultural ambassadors, breaking down stereotypes and building connections that transcend borders.
+
+            The economic impact of travel is a force for positive change, breathing life into local economies and communities. From the bustling markets of Marrakech to the serene villages of Southeast Asia, the influx of travelers sustains livelihoods, supports small businesses, and fuels the preservation of cultural heritage. Travel becomes a catalyst for sustainable development, creating a harmonious cycle of prosperity.
+
+            In an age where digital connections often overshadow face-to-face interactions, travel serves as a reminder of the beauty of genuine human connection. Shared moments, whether atop a mountain summit or in the midst of a bustling city square, forge bonds that transcend the virtual realm, creating memories that linger in the hearts of travelers and locals alike.
+
+            As we celebrate the transformative power of travel, let us embrace the belief that exploration is not merely a physical journey but a state of mind. It is an opportunity to rejuvenate the spirit, broaden horizons, and cultivate a deep appreciation for the kaleidoscope of humanity. So, let the call of adventure be our guide, and may the uplifting power of travel continue to inspire us to explore the world with open hearts and curious minds. After all, in the tapestry of our lives, every journey is a brushstroke that adds color to the canvas of our existence.
+        </p>
+    </div>
+    <div id="sectionarticle2" class="container m-3 p-3">
+        <img class="travelingimage" src="https://images.pexels.com/photos/787630/pexels-photo-787630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="travel Image" />
+        <h1 class="articleheading">Architectural Marvels</h1>
+        <p class="articlepara"><span>Celebrating the Beauty and Innovation of Buildings </span> <br /> In the grand tapestry of human civilization, buildings stand as towering monuments to our ingenuity, creativity, and the relentless pursuit of progress. From the ancient wonders that have withstood the test of time to the cutting-edge structures that redefine our skylines today, buildings are more than mere structures; they are the physical embodiment of our aspirations and the canvases upon which architects paint their dreams.<br />
+            The Timeless Allure of Architecture:
+
+            Architecture, as an art form, has the remarkable ability to blend functionality with aesthetics, creating structures that not only serve a purpose but also captivate the human spirit. Throughout history, buildings have been instrumental in shaping the cultural identity of societies, reflecting their values, beliefs, and technological advancements.
+
+            From the grandeur of the Parthenon in Athens to the intricate beauty of the Taj Mahal in Agra, buildings have the power to transport us across time and space. These architectural wonders not only tell stories of their own eras but also serve as inspiration for future generations to push the boundaries of what is possible.
+
+            Modern Marvels:
+
+            As we venture into the 21st century, buildings continue to evolve, showcasing cutting-edge design, sustainable practices, and innovative technologies. The skyline of our cities is a testament to the progress we've made in engineering and construction. Iconic structures like the Burj Khalifa in Dubai and the Shanghai Tower in China not only touch the sky but also symbolize the limitless potential of human achievement.
+
+            Beyond their sheer height, modern buildings are increasingly designed with sustainability in mind. Green roofs, energy-efficient materials, and smart technologies are transforming buildings into eco-friendly, living entities that contribute positively to the environment. This commitment to sustainability not only reflects a responsible approach to development but also inspires a harmonious coexistence between nature and urban life.
+
+            Architectural Diversity:
+
+            One of the most enchanting aspects of buildings is the incredible diversity in architectural styles that dot our landscapes. From the sleek and modernist structures of the 20th century to the revival of classical designs, each building tells a unique story. This diversity adds vibrancy to our cities, creating a tapestry of styles that reflects the dynamic nature of human creativity.
+
+            Buildings as Community Hubs:
+
+            Beyond their visual appeal, buildings serve as hubs of community life. Whether they are soaring skyscrapers or quaint neighborhood structures, buildings house the businesses, institutions, and spaces that bring people together. From bustling city centers to tranquil rural villages, buildings are the physical foundations of our communities, fostering connection, collaboration, and a sense of belonging.
+
+            In the grand narrative of human history, buildings stand as testaments to our progress, creativity, and collective aspirations. From ancient wonders that echo the genius of our ancestors to modern marvels that push the boundaries of what is possible, buildings are the silent narrators of our journey through time. As we continue to innovate and imagine, let us celebrate the beauty and positive impact of buildings as they shape the landscapes of our cities and the stories of our lives.
+        </p>
+    </div>
+    <div id="sectionarticle3" class="container m-3 p-3">
+        <img class="travelingimage" src="https://srjbtkshetra.org/wp-content/uploads/2021/03/online-donate-1.jpg" alt="Temple Image" />
+        <h1 class="articleheading">Sacred Sanctuaries</h1>
+        <p class="articlepara"><span> The Timeless Beauty and Spiritual Resonance of Temples </span> <br /> In the kaleidoscope of human history, temples emerge as architectural wonders that transcend time, embodying the spiritual aspirations of civilizations across the ages. These sacred sanctuaries, with their majestic spires and intricate designs, stand not only as testaments to craftsmanship but also as beacons of tranquility, wisdom, and the enduring quest for the divine. <br />
+            Temples are more than stone and mortar; they are portals to the sacred realms, inviting devotees and seekers alike to embark on a journey of introspection and reverence. Whether nestled in bustling urban centers or perched atop serene hills, temples serve as physical manifestations of the human spirit's yearning for connection with the divine.
+
+            The architectural grandeur of temples is a testament to the profound devotion and skill of the artisans who crafted them. From the intricate carvings that adorn temple walls to the soaring spires that reach toward the heavens, every element is a reflection of the divine inspiration that fuels the creation of these sacred spaces. Temples, irrespective of their cultural or religious roots, embody a universal language of beauty and harmony.
+
+            Temples are not just places of worship; they are cultural repositories that safeguard the traditions, rituals, and stories of bygone eras. As living testaments to the rich tapestry of human history, temples offer a glimpse into the beliefs and practices that have shaped societies throughout time. They stand as guardians of cultural heritage, preserving the collective memory of civilizations for generations to come.
+
+            Beyond their historical significance, temples serve as spiritual refuges, providing solace and serenity to those who seek a respite from the chaos of the world. The hushed whispers of prayers, the aromatic clouds of incense, and the soft glow of flickering candles create an atmosphere of profound peace within temple walls. In these sacred spaces, individuals find a sanctuary to reflect, meditate, and find connection with the divine.
+
+            Temples also serve as focal points for community cohesion and social harmony. Festivals, ceremonies, and communal gatherings bring people together in celebration of shared faith and values. The sense of belonging fostered within temple communities transcends individual differences, promoting a spirit of unity and mutual support.
+
+            In an era marked by constant change, temples stand as timeless anchors, reminding us of the enduring nature of the human spirit's quest for meaning. Whether exploring the ancient temples of Angkor Wat, marveling at the intricate carvings of Khajuraho, or finding solace in the serenity of a local neighborhood temple, each visit is an opportunity to connect with the divine and to witness the enduring beauty of the human soul.
+
+            As we celebrate the temples that grace our landscapes, let us recognize their role as custodians of culture, promoters of peace, and symbols of spiritual unity. In their silent grandeur, temples beckon us to pause, reflect, and appreciate the profound beauty that transcends the material world—an invitation to connect with the eternal, one sacred step at a time.
+        </p>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+</body>
+
+                  </html>
